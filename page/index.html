@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input id="in" type="text" placeholder="teamName">
+    <button id="get">Get Roster</button>
+    <div id="container"></div>
+    <script id="tamplete" type="text/x-handlebars-template">
+        <div class="Player">
+        <h2>{{name}}</h2>
+        <h2>{{jersey}}</h2>
+        <img src={{img}}>
+        <h2>{{pos}}</h2>
+    </div>
+    </script>
+    <script src="handlebars/dist/handlebars.js"></script>
+    <script  src="jquery/dist/jquery.js"></script>
+    <script src="script.js"></script>
+   
+    
+</body>
+</html>

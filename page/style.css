@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+.Player{
+    display: grid;
+    background-color: orange;
+    grid-template-rows: repeat(4,0.2fr);
+    width: fit-content;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
